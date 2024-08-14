@@ -5,4 +5,7 @@ var address = "sasaram";
 home = "sasaram"
 name = "golu";
 address = "tilai";
-console.table([id , name , address,home]);
+let a = 40;
+a = 40.5;
+console.table([a,id , name , address,home]);
+//prefer do not use to var because issue of block scope and functional scope

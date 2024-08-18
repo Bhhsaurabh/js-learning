@@ -22,3 +22,4 @@ function add( a ,b){
 }
 
 console.table([typeof amount , typeof name , typeof hasDone , typeof extraAmount , typeof subject]);
+

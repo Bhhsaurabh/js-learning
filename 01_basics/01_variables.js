@@ -8,4 +8,4 @@ address = "tilai";
 let a = 40;
 a = 40.5;
 console.table([a,id , name , address,home]);
-//prefer do not use to var because issue of block scope and functional scope
+//prefer do not use to var because issue of block scope and functional scop

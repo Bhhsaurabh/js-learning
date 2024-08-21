@@ -60,4 +60,9 @@ const users =[
 // console.log(Object.entries(tinderUser))
 
 // TODO: check whether object have certain properties
-console.log(tinderUser.hasOwnProperty('name'))
+// console.log(tinderUser.hasOwnProperty('name'))
+
+
+//TODO:  Destructuring the object with destruct functions
+const {FullName: fn} = tinderUser
+console.log(fn)

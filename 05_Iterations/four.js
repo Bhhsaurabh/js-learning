@@ -42,3 +42,23 @@ const data = [
 data.forEach((item)=>{
    // console.log(item.name)
 })
+
+// filters returns an value
+
+const arr1 = [1,3,5,12,332,543,10,123]
+const newNum = arr1.filter((num)=> (num>4))
+// console.log(newNum)
+//or
+const newNum2 = arr1.filter((num)=>{
+    return num>4
+})
+// console.log(newNum)
+
+// do this same thing with for each
+const arr3 = []
+arr1.forEach((num)=>{
+    if(num>4){
+        arr3.push(num)
+    }
+})
+console.log(arr3)

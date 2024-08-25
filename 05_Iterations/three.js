@@ -15,11 +15,11 @@ map.set("Us","United state")
 map.set("Uk","United Kingdom")
 
 // console.log(map) 
-//TODO: maps are iteratable
+//TODO: maps are iteratable with for of loop not with for in loop
 for(const [key,value] of map){
     // console.log(`${key} :-> ${value}`)
 }
-//TODO: objects are nto iterable
+//TODO: objects are not iterable to iterate use for in loop
 const obj = {
     name : "saurabh",
     age : 19
